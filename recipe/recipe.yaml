@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.11.0"
+  version: "0.13.0"
 
 package:
   name: okf-ingest
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/okf-ingest/okf_ingest-${{ version }}.tar.gz
-  sha256: 237577465b9cf8c082acc703a0fed9e8f8f4d961407b22dda18df952bcf3bbc3
+  sha256: 1d149541314cdde8799d397a103d2ba046661b12543e85f8d4c168e0f2ecc28e
 
 build:
   noarch: python
